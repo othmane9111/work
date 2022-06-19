@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Front-end webDev App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="mainTable">
+      <table id="table">
+        <tr class="table">
+          <th>ID</th>
+          <th>Date de creation</th>
+          <th>Etat</th>
+          <th>Nom</th>
+          <th>Prenom</th>
+          <th>Nom d'utilisateur</th>
+          <th>Matricule</th>
+          <th>action</th>
+        </tr>
+      </table>
+    </div>
+    <div class="button_container">
+      <button class="showForm">Ajouter utilisateur</button>
+    </div>
+
+    <div class="form_container">
+      <h3>Ajouter d'utilisateur</h3>
+      <form action="" class="form">
+        <div class="setOfInputs input1">
+          <label for="name">Nom</label>
+          <input type="text" id="name" />
+        </div>
+        <div class="setOfInputs">
+          <label for="Nom d'utilisateur">Nom d'utilisateur</label>
+          <input type="text" id="userName" />
+        </div>
+        <div class="setOfInputs">
+          <label for="Matricule">Matricule</label>
+          <input type="text" id="matricule" />
+        </div>
+        <div class="setOfInputs prenom">
+          <label for="Prenom">Prenom</label>
+          <input type="text" id="lastName" />
+        </div>
+        <div class="setOfInputs date">
+          <label for="Date de creation">Date de creation</label>
+          <input type="text" id="date" />
+        </div>
+        <div class="setOfInputs etat">
+          <label for="Etat">Etat</label>
+          <input type="text" id="stat" />
+        </div>
+        <div class="btn">
+          <input type="submit" value="submit" class="submit" />
+        </div>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
